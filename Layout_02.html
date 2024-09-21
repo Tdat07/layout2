@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor D.Dog</title>
+    <style>
+        boy{
+            background-image: linear-gradient(#D3d1d1,white);
+            background-repeat: no-repeat;
+        }
+        .container{
+            width: 90%;
+            background-color: white;
+            margin: 0 auto;
+        }
+        .header h1{
+            margin-top: 0;
+        }
+        header{
+            padding: 10px;
+        }
+        .block{
+            padding: 10px;
+            position: relative;
+        }
+        .title{
+            background-color:#43899e;
+            color:#8169694f ;
+            line-height: 40px;
+            font-size:25px;
+        }
+        .image{
+            position:absolute;
+            right: 10px;
+            top: 10px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Dog D.Dog</h1>
+        </div>
+        <div class="block">
+            <div class="title">About</div>
+            <div class="content"></div>
+                <p>Woof woof!</p>
+                <p>Hi . I'm Dog . I love</p>
+                <a href="https://tek4.vn/">Used design</a>
+                <img src="../picture/cho_mot.jpg" alt="" class="image">
+        </div>
+        <div class="block">
+            <div class="title">Courses</div>
+            <div class="content">
+                <p>CSS describes how HTML elements should be displayed .</p>
+                <table border = "1" cellspacing = "0" cellpadding = "5">
+                    <tr>
+                      <th><b>Course Number</b></th>
+                      <th><b>Course Title</b></th>
+                      <th><b>Semester Taken</b></th>
+                    </tr>
+                    <tr>
+                      <th colspan="3" class = "i"><b>For Credit</b></th>
+                    </tr>
+                    <tr class = "gray">
+                      <td style="color: #0068bd;"><b>6.034</b></td>
+                      <td style="color: #22aeff;"><b>User Interface Design</b></td>
+                      <td style="color: #22aeff;"><b>Spring 2014</b></td>
+                    </tr>
+                    <tr>
+                      <td style="color: #0068bd;"><b>6.034</b></td>
+                      <td>Artificial Intelligence</td>
+                      <td>Fall 2013</td>
+                    </tr>
+                    <tr class = "gray">
+                      <td style="color: #0068bd;"> <b>6.034</b></td>
+                      <td>Introduction to Algorithms</td>
+                      <td>Fall 2013</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3" class="i"><b>Listener</b></th>
+                    </tr>
+                    <tr class = "gray">
+                      <td style="color: #22aeff;"><b>6.867</b></td>
+                      <td>Machine Learning</td>
+                      <td>Fall 2013</td>
+                    </tr>
+                    <tr>
+                      <td style="color: #22aeff;"><b>6.867</b></td>
+                      <td>Database Systems</td>
+                      <td>Fall 2012</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="block">
+            <div class="title">Interests</div>
+            <div class="content">
+                <p>I am interests <u>HCl</u> , meme , and youtube</p>
+            </div>
+        </div>
+        <div class="block">
+            <div class="title">Submit Pet Information</div>
+            <div class="content">
+               <p> would you like me !</p>
+               <table>
+                <label for="name"> Name : </label>
+                <input type="text" name="name" id="name"> <br>
+                Gender :<label for="nam">Nam</label>
+                <input type="radio" name="gen" id="nam" checked>
+                <label for="nu">Nu</label>
+                <input type="radio" name="gen" id="nu" ><br>
+                <label for="submit"></label>
+                <input type="submit" name="submit" id="submit" value="Submit">
+                <label for="reset"></label>
+                <input type="reset" name="reset" id="reset" value="reset">
+               </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
